@@ -36,7 +36,7 @@ how broken access control can affect real production applications and
 highlighted the importance of enforcing authorization checks on the
 server side.
 
-**Prevention:**
+**Prevention and Mitigation:**
 
 - Enforce authorization checks on the server side for every request.
 - Verify that the authenticated user is authorized to access the requested
@@ -85,7 +85,7 @@ infrastructure configuration can contribute to unauthorized access and data
 exposure, even when the underlying application is not necessarily the direct
 cause of the breach.
 
-**Prevention:**
+**Prevention and Mitigation:**
 
 - Establish a repeatable security-hardening process for every environment.
 - Remove unnecessary services, features, accounts, and sample applications.
@@ -142,7 +142,7 @@ This incident demonstrates why sensitive credentials must be protected
 using modern password-hashing algorithms and appropriate cryptographic
 controls rather than relying on outdated or weak hashing methods.
 
-**Prevention:**
+**Prevention and Mitigation:**
 
 - Encrypt sensitive data both at rest and in transit.
 - Use modern, well-tested cryptographic algorithms and libraries.
@@ -207,7 +207,7 @@ This case shows why applications must treat user-supplied input as
 untrusted data and ensure that it cannot alter the structure or meaning of
 database queries.
 
-**Prevention:**
+**Prevention and Mitigation:**
 
 - Keep user-supplied data separate from commands and queries.
 - Use parameterized queries or prepared statements for database operations.
@@ -271,7 +271,7 @@ network. Strong authentication controls, particularly multi-factor
 authentication, can significantly reduce the risk associated with
 compromised credentials.
 
-**Prevention:**
+**Prevention and Mitigation:**
 
 - Implement multi-factor authentication wherever possible.
 - Do not use default, weak, or hard-coded credentials.
