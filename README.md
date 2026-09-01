@@ -23,7 +23,7 @@ and participating in authorized bug bounty programs.
 
 - 🛡️ Top 1% globally on TryHackMe
 - 🎯 296+ TryHackMe rooms completed
-- 🔥 144-day consecutive TryHackMe streak
+- 🔥 160+ days consecutive TryHackMe streak
 - 📊 Self-built Splunk SOC detection and investigation lab
 - 🐞 Active bug bounty researcher
 - 🔎 Live triaged vulnerability report on Intigriti
@@ -31,8 +31,8 @@ and participating in authorized bug bounty programs.
 
 ### Profiles
 
-- **LinkedIn:** linkedin.com/in/muhammad-usman-cyber](https://linkedin.com/in/muhammad-usman-cyber
-- **TryHackMe:** tryhackme.com/p/MuhammadUsman7](https://tryhackme.com/p/MuhammadUsman7
+- **LinkedIn:** https://linkedin.com/in/muhammad-usman-cyber
+- **TryHackMe:** https://tryhackme.com/p/MuhammadUsman7
 ---
 
 ## Internship Objectives
