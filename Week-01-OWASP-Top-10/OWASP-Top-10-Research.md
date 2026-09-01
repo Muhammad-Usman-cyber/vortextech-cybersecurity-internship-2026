@@ -289,7 +289,7 @@ compromised credentials.
 - Log authentication failures and alert on suspicious authentication
   activity.
 
-  **Potential Impact:**
+**Potential Impact:**
 
 Authentication failures can allow attackers to gain unauthorized access to
 user or administrator accounts. This may result in data theft, account
