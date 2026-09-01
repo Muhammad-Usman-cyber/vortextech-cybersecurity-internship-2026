@@ -52,3 +52,58 @@ Broken access control can lead to unauthorized access to sensitive
 information, modification of other users' data, privilege escalation,
 financial manipulation, or unauthorized administrative actions, depending
 on the affected functionality.
+
+---
+
+## 2. A02:2025 — Security Misconfiguration
+
+**What it is:**
+
+Security Misconfiguration happens when systems are deployed with insecure
+default settings, unnecessary features enabled, overly permissive
+configurations, or missing security hardening — not necessarily because of a
+coding flaw, but because of how the application or infrastructure was set up.
+
+**How an attacker could exploit it:**
+
+An attacker could find an exposed administrative interface with default
+credentials, discover verbose error messages that reveal stack traces or
+internal file paths, or find directory listing enabled on a web server,
+potentially exposing files or application components that should remain
+private.
+
+**Real-World Example:**
+
+A well-known example of security misconfiguration is the 2019 Capital One
+cloud security incident. Capital One stated that an attacker exploited a
+configuration vulnerability in its infrastructure, which resulted in
+unauthorized access to customer and applicant information.
+
+Court records later described a misconfigured firewall and permissions that
+were broader than intended. The incident demonstrates how an insecure
+infrastructure configuration can contribute to unauthorized access and data
+exposure, even when the underlying application is not necessarily the direct
+cause of the breach.
+
+**Prevention:**
+
+- Establish a repeatable security-hardening process for every environment.
+- Remove unnecessary services, features, accounts, and sample applications.
+- Change default credentials and disable unused accounts.
+- Disable directory listing and unnecessary debugging functionality.
+- Configure applications to avoid exposing detailed stack traces or
+  sensitive error information.
+- Review cloud storage and service permissions regularly.
+- Use secure security headers and secure configuration defaults.
+- Automate configuration checks where possible.
+- Regularly review configurations after changes or deployments.
+- Apply the principle of least privilege to cloud and infrastructure
+  permissions.
+
+**Potential Impact:**
+
+Security misconfiguration can result in sensitive information disclosure,
+unauthorized access, privilege abuse, exposure of internal application
+details, or provide attackers with additional information that can be used
+for further attacks. The severity depends on what component has been
+misconfigured and what resources it can access.
