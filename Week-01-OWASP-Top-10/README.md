@@ -53,3 +53,12 @@ The complete research report is available in:
 
 - [OWASP Top 10:2025](https://owasp.org/Top10/2025/)
 - [OWASP Foundation](https://owasp.org/)
+
+## How to Run
+
+This is a research-only cybersecurity documentation project and does not
+require any software installation or code execution.
+
+To view the research, open:
+
+`OWASP-Top-10-Research.md`
