@@ -309,3 +309,49 @@ access or modify. My experience with authorized bug bounty testing also
 helped me understand how access control issues can occur in real-world
 applications. This research made me more aware of the importance of
 server-side authorization checks and the principle of least privilege.
+
+---
+
+## References
+
+### OWASP Top 10:2025
+
+- OWASP Top 10:2025 — Official Project Page  
+  https://owasp.org/Top10/2025/
+
+- OWASP Top 10:2025 — A01: Broken Access Control  
+  https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/
+
+- OWASP Top 10:2025 — A02: Security Misconfiguration  
+  https://owasp.org/Top10/2025/A02_2025-Security_Misconfiguration/
+
+- OWASP Top 10:2025 — A04: Cryptographic Failures  
+  https://owasp.org/Top10/2025/A04_2025-Cryptographic_Failures/
+
+- OWASP Top 10:2025 — A05: Injection  
+  https://owasp.org/Top10/2025/A05_2025-Injection/
+
+- OWASP Top 10:2025 — A07: Authentication Failures  
+  https://owasp.org/Top10/2025/A07_2025-Authentication_Failures/
+
+### Real-World Case Studies
+
+**Security Misconfiguration — Capital One (2019)**
+
+- Krebs, B. (2019). *What We Can Learn From the Capital One Hack.* KrebsOnSecurity.  
+  https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/
+
+**Cryptographic Failures — LinkedIn Password Breach (2012)**
+
+- LinkedIn. (2012). *An Update on LinkedIn Member Passwords Compromised.*  
+  https://www.linkedin.com/blog/member/archive/linkedin-member-passwords-compromised
+
+**Injection — Heartland Payment Systems (2008)**
+
+- U.S. Department of Justice. *Heartland Payment Systems — SQL Injection Attack and Card Data Theft.*  
+  https://www.justice.gov/usao-nj/file/771941/dl
+
+**Authentication Failures — Colonial Pipeline (2021)**
+
+- CISA. (2021). *DarkSide Ransomware: Best Practices for Preventing Business Disruption from Ransomware Attacks (AA21-131A).*  
+  https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a
