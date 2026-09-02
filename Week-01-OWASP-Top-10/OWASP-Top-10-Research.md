@@ -75,15 +75,19 @@ private.
 **Real-World Example:**
 
 A well-known example of security misconfiguration is the 2019 Capital One
-cloud security incident. Capital One stated that an attacker exploited a
-configuration vulnerability in its infrastructure, which resulted in
-unauthorized access to customer and applicant information.
+data breach. According to the U.S. Department of Justice, the intrusion
+occurred through a misconfigured web application firewall (WAF) that
+enabled unauthorized access to data.
 
-Court records later described a misconfigured firewall and permissions that
-were broader than intended. The incident demonstrates how an insecure
-infrastructure configuration can contribute to unauthorized access and data
-exposure, even when the underlying application is not necessarily the direct
-cause of the breach.
+The attack involved exploiting an SSRF (Server-Side Request Forgery)
+vulnerability to interact with internal AWS resources. The attacker was
+able to obtain credentials associated with the affected cloud environment
+and use them to access and extract data from Capital One's storage.
+
+The incident demonstrates how an improperly configured security control
+can create an attack path that exposes internal cloud resources and
+sensitive information. It also shows why security configuration must be
+reviewed alongside application-level security controls.
 
 **Prevention and Mitigation:**
 
@@ -338,8 +342,13 @@ server-side authorization checks and the principle of least privilege.
 
 **Security Misconfiguration — Capital One (2019)**
 
-- Krebs, B. (2019). *What We Can Learn From the Capital One Hack.* KrebsOnSecurity.  
-  https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/
+- U.S. Department of Justice. (2019). *Seattle Tech Worker Arrested for Data
+  Theft Involving Large Financial Services Company.*
+  https://www.justice.gov/usao-wdwa/pr/seattle-tech-worker-arrested-data-theft-involving-large-financial-services-company
+
+- U.S. Department of Justice. *United States v. Paige Thompson —
+  Criminal Complaint.*
+  https://www.justice.gov/usao-wdwa/press-release/file/1188626/dl
 
 **Cryptographic Failures — LinkedIn Password Breach (2012)**
 
