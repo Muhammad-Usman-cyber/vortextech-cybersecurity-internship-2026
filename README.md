@@ -58,7 +58,7 @@ documentation, and continuous improvement**.
 | Week | Topic | Status |
 |------|-------|--------|
 | Week 1 | OWASP Top 10 Vulnerability Research | ✅ Complete |
-| Week 2 | Assignment TBD | ⏳ Not Assigned |
+| Week 2 | Hands-On with Basic Security Tools | ✅ Complete |
 | Week 3 | Assignment TBD | 🔒 Upcoming |
 | Week 4 | Assignment TBD | 🔒 Upcoming |
 
@@ -78,7 +78,7 @@ vortextech-cybersecurity-internship-2026/
 │   ├── README.md
 │   └── OWASP-Top-10-Research.md
 │
-├── Week-02/
+├── Week-02-Basic-Security-Tools/
 │   └── README.md
 │
 ├── Week-03/
