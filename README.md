@@ -79,7 +79,13 @@ vortextech-cybersecurity-internship-2026/
 │   └── OWASP-Top-10-Research.md
 │
 ├── Week-02-Basic-Security-Tools/
-│   └── README.md
+│   ├── README.md
+│   ├── password_checker.py
+│   ├── password_checker_results.md
+│   ├── nmap_scan_results.md
+│   └── screenshots/
+│       ├── password_check.png
+│       └── nmap_scan.png
 │
 ├── Week-03/
 │   └── README.md
