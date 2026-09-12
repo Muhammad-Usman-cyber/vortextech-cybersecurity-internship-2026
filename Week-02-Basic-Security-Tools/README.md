@@ -86,14 +86,41 @@ No third-party systems or networks are intentionally scanned.
 
 ## Project Status
 
-**In Progress — Week 2**
+**Completed — Week 2**
 
-The password-strength evaluator and authorized Nmap scan will be completed
-and documented as part of this project.
+The password strength evaluator was implemented and tested with multiple test cases.
+
+An authorized Nmap scan was also performed against the Windows 10 virtual machine in the local VirtualBox cybersecurity lab.
+
+The project results, observations, and supporting screenshots have been documented in this repository.
 
 ---
 
 ## How to Run
 
-Detailed execution instructions and final results will be added after the
-implementation and testing phases are completed.
+### Password Strength Evaluator
+
+1. Make sure Python 3 is installed.
+2. Run:
+   ```bash
+   python3 password_checker.py
+   ```
+3. Enter a test password when prompted.
+4. The program will display a strength rating and feedback.
+
+---
+
+### Nmap
+
+1. Install Nmap on a supported system and run the scan against an authorized target.
+
+   **Example:**
+   ```bash
+   nmap 192.168.56.103
+   ```
+2. **For service detection:**
+   ```bash
+   nmap -sV 192.168.56.103
+   ```
+
+> **Warning:** Only scan systems and networks that you own or have explicit permission to test.
