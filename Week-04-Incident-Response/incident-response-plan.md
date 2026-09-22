@@ -383,21 +383,18 @@ The post-incident review should result in concrete actions such as:
 
 # 10. Internal Communication Plan
 
-Communication should follow the organization's incident severity and
-data-impact assessment.
+Internal communication during this incident is documented in full,
+stakeholder by stakeholder, in **`communication-plan.md`** — covering
+the SOC, IT/Engineering, Security Leadership, Executive Leadership,
+Legal/Compliance, customers, and regulators, along with timing and
+what information each group receives.
 
-| Time | Stakeholder | Communication |
-|---|---|---|
-| Immediately | SOC / Security Team | Begin investigation and incident tracking |
-| Immediately | IT / Engineering | Notify technical owners of affected systems |
-| Early in investigation | Security Leadership | Provide initial scope and status |
-| Once material impact is suspected | Executive Leadership | Provide incident summary and business impact |
-| During investigation | Legal / Compliance | Review potential privacy and regulatory implications |
-| When facts are established | Affected Customers | Provide appropriate notification where required |
-| When legally or contractually required | Regulators / Authorities | Follow applicable notification requirements |
-
-All communications should be based on verified information and should
-avoid speculation about the incident's scope.
+In summary: technical teams (SOC, IT/Engineering) are notified
+immediately, security and executive leadership are briefed as scope
+and business impact are confirmed, legal/compliance is looped in once
+sensitive data exposure is identified, and customers/regulators are
+notified only once facts are verified and any legal obligations are
+established.
 
 ---
 
@@ -441,26 +438,11 @@ unauthorized access.
 
 # 12. Incident Timeline
 
-A simplified incident timeline is provided below.
-
-| Time | Event |
-|---|---|
-| 09:10 | Security monitoring detects abnormal API activity |
-| 09:15 | SOC analyst begins triage |
-| 09:30 | Affected API endpoint identified |
-| 09:45 | Unauthorized access is confirmed |
-| 10:00 | Incident response team activated |
-| 10:15 | Affected endpoint restricted |
-| 10:30 | Relevant logs and evidence preserved |
-| 11:00 | Scope investigation begins |
-| 13:00 | API authorization weakness identified as likely root cause |
-| 14:00 | Remediation begins |
-| 16:00 | Security validation completed |
-| 17:00 | Service recovery begins |
-| 18:00 | Increased monitoring activated |
-
-> Times are hypothetical and are included to demonstrate a realistic
-> incident-response workflow.
+The full, phase-by-phase incident timeline — from initial detection
+at 09:10 through increased post-recovery monitoring at 18:00 — is
+documented in **`incident-timeline.md`**, along with observations on
+why containment precedes full scope investigation and why eradication
+is the longest phase of the response.
 
 ---
 
