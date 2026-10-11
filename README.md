@@ -4,7 +4,9 @@
 > investigations, and technical development throughout the Vortex Tech
 > Cybersecurity Internship.
 
-**Internship Period:** September 2026 – Present
+**Internship Period:** September 2026 – October 2026
+
+**Status:** ✅ Successfully Completed
 
 ---
 
@@ -59,8 +61,8 @@ documentation, and continuous improvement**.
 |------|-------|--------|
 | Week 1 | OWASP Top 10 Vulnerability Research | ✅ Complete |
 | Week 2 | Hands-On with Basic Security Tools | ✅ Complete |
-| Week 3 | Assignment TBD | 🔒 Upcoming |
-| Week 4 | Assignment TBD | 🔒 Upcoming |
+| Week 3 | Security-Audit | ✅ Complete |
+| Week 4 | Incident-Response | ✅ Complete |
 
 > Each week's directory will be updated as assignments are officially
 > provided and completed.
@@ -71,24 +73,12 @@ documentation, and continuous improvement**.
 
 ```text
 vortextech-cybersecurity-internship-2026/
-│
 ├── README.md
-│
 ├── Week-01-OWASP-Top-10/
-│   ├── README.md
-│   └── OWASP-Top-10-Research.md
-│
 ├── Week-02-Basic-Security-Tools/
-│   ├── README.md
-│   ├── password_checker.py
-│   ├── password_checker_results.md
-│   ├── nmap_scan_results.md
-│   └── screenshots/
-│       ├── password_check.png
-│       └── nmap_scan.png
-│
-├── Week-03/
-│   └── README.md
-│
-└── Week-04/
-    └── README.md
+├── Week-03-Security-Audit/
+├── Week-04-Incident-Response/
+└── Certificates/
+    ├── README.md
+    └── Vortex-Tech-Certificate-of-Completion.pdf
+```
